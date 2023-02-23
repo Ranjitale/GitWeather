@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+Math&family=Poppins:wght@400;700&family=Quicksand&display=swap"
+          rel="stylesheet">
+     <title>Weather App </title>
+</head>
+
+<body>
+     <div class="container">
+          <div class="logo"><img src="./Weather-No-Background.png" width='60px' /><span class="bold"> Weather of
+                    Any city
+                    Live</span></div>
+          <div class="portfolio-item">
+               <a href="https://www.ranjitale.com.np/">Main Website of Me</a>
+          </div>
+     </div>
+
+     <div class="main bold">
+
+          <form>
+               <label for="city-input" id="text-city">Enter city name:</label>
+               <input type="text" id="city-input" name="city-input" value="Kathmandu">
+               <button type="submit" id="submit-btn">Get Weather</button>
+          </form>
+          <br>
+          <table>
+               <tr>
+                    <td>Location </td>
+                    <td>Time</td>
+                    <td>Temperature (&deg;F)</td>
+                    <td>Temperature (&deg;C)</td>
+                    <td>Wind Speed(kmph)</td>
+                    <td>Humidity</td>
+               </tr>
+               <tr>
+                    <td class="weather-location"> </td>
+                    <td class="weather-time"></td>
+                    <td class="weather-temp-f"></td>
+                    <td class="weather-temp-c"></td>
+                    <td class="weather-speed"></td>
+                    <td class="weather-humidity"></td>
+               </tr>
+          </table>
+
+     </div>
+     <div class="footer"><a href="https://www.ranjitale.com.np/">&#169;Ranjitale.com.np</a></div>
+</body>
+<script defer src="script.js"></script>
+
+</html>
